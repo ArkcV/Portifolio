@@ -78,3 +78,33 @@ header .profile .social-links a:hover {
 }
 
 
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+header nav {
+    margin-top: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 7px 0;
+    color: var(--bgColor);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+}
+
+header nav ul li a:hover {
+    color: var(--themeColor);
+}
+
+
+header nav ul li .active {
+    color: var(--themeColor);
+}
