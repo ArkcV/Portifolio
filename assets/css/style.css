@@ -59,7 +59,7 @@ header .profile h1 {
 }
 
 
-header .profile .social-icons a {
+header .profile .social-links a {
     display: inline-block;
     width: 36px;
     height: 36px;
@@ -73,6 +73,8 @@ header .profile .social-icons a {
     transition: 0.4s;
 }
 
-header .profile .social-icons a:hover {
+header .profile .social-links a:hover {
     background-color: var(--themeColor);
 }
+
+
