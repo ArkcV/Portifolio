@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------
-# Google Fonts*
+# Google Fonts
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -148,6 +148,22 @@ header nav ul li .active {
     left: 0;
 }
 
+
+
+/*--------------------------------------------------------------
+# Main Section
+--------------------------------------------------------------*/
+main {
+    background: #121621;
+    margin-left: 300px;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1050px) {
+    main {
+        margin-left: 0px;
+    }
+}
 
 /*--------------------------------------------------------------
 # Home Section

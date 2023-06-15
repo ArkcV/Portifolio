@@ -44,13 +44,36 @@
     </header>
      <!-- ======= Header ======= -->
     
+  
+    <main>
+       
+        <section id="home">
+            <div class="home-row">
+                <h1>Olá, sou <br>Andriel Marques<span>.</span></h1>
+                <p> <span class="auto-input"></span></p>
+            </div>
+        </section>
 
+    </main>
 
+  
     <!-- JS File & Scripts-->
     <script src="./assets/js/main.js"></script>
 
     <!-- FontAwesome-->
     <script src="https://kit.fontawesome.com/eac1154f77.js" crossorigin="anonymous"></script>
+
+    <!-- Setup and start animation! -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script defer>
+        var typed = new Typed('.auto-input', {
+            strings: ['Front-End Developer!', 'Web Designer!'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 2000,
+            loop: true,
+        });
+    </script>
 
 </body>
 
