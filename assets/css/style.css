@@ -382,3 +382,70 @@ main {
 
 }
 
+/*--------------------------------------------------------------
+# Resume Section
+--------------------------------------------------------------*/
+#resume {
+    padding: 70px 30px;
+   
+}
+
+
+#resume .divider ~ p {
+    color: var(--bgColor);
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    margin-top: 15px;
+
+}
+
+#resume .resume-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+#resume .resume-row .resume-cols{
+    flex-basis: 50%;
+}
+
+#resume .resume-row .resume-cols h3{
+    color: var(--bgColor);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+
+#resume .resume-row .resume-cols .my-info{
+    color: var(--bgColor);
+    padding: 0 20px 0 20px;
+    margin: 20px;
+    border-left: 2px solid var(--themeColor);
+    position: relative;
+}
+
+#resume .resume-row .resume-cols .my-info div {
+    padding-top: 20px;
+  
+}
+
+
+#resume .resume-row .resume-cols .my-info div i{
+    color: var(--themeColor);
+  
+}
+
+#resume .resume-row .resume-cols .my-info div a {
+    color: var(--bgColor);
+    text-decoration: none;
+
+}
+
+
+#resume .resume-row .resume-cols .my-info div a:hover {
+  color: var(--themeColor);
+}
+
