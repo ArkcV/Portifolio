@@ -283,7 +283,6 @@ main {
     font-weight: 700;
     font-size: 35px;
     letter-spacing: 0.5px;
-    margin-top: -10px;
 }
 
 #about .about-col .info-col p {
@@ -390,7 +389,6 @@ main {
    
 }
 
-
 #resume .divider ~ p {
     color: var(--bgColor);
     font-size: 15px;
@@ -422,7 +420,7 @@ main {
 #resume .resume-row .resume-cols .my-info{
     color: var(--bgColor);
     padding: 0 20px 0 20px;
-    margin: 20px;
+   
     border-left: 2px solid var(--themeColor);
     position: relative;
 }
@@ -463,3 +461,49 @@ main {
     }
 }
 
+/*--------------------------------------------------------------
+# Skill Section
+--------------------------------------------------------------*/
+
+#skill {
+    padding: 70px 30px;
+   
+}
+
+#skill p {
+    color: var(--bgColor);
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    margin-top: 15px;
+   
+}
+
+
+#skill .linguage i{
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 25px;
+ }
+
+
+#html5{
+    color: #D44815;
+ }
+
+ #css3{
+    color: #0070B9;
+ }
+
+ #js{
+    color: #EFD81D;
+ }
+ #node-js{
+    color: #75B430;
+ }
+ #react{
+    color: #0070B9;
+ }
+ #mongodb{
+    color: #75B430
+ }
