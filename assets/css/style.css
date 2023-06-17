@@ -507,3 +507,15 @@ main {
  #mongodb{
     color: #75B430
  }
+
+
+/*Mobile view*/
+@media screen and (max-width: 820px){
+    #skill{
+        padding: 50px 15px;
+    }
+
+    #skill{
+        flex-basis: 50%;
+    }
+}
