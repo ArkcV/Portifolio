@@ -414,7 +414,6 @@ main {
 #resume .resume-row .resume-cols .my-info{
     color: var(--bgColor);
     padding: 0 20px 0 20px;
-   
     border-left: 2px solid var(--themeColor);
     position: relative;
 }
@@ -561,7 +560,7 @@ main {
     top: 0;
     left: 0;
     width: 100%;
-    height: 96%;
+    height: 98%;
     background-color: var(--themeColor);
     padding: 0 15px;
     text-align: center;
@@ -577,7 +576,7 @@ main {
     
 }
 
-#project .pro-row .pro-item:hover .pro-info{
+#project .pro-row .pro-item:hover .pro-info {
     transform: scale(1);
     visibility: visible;
 }
@@ -605,3 +604,30 @@ main {
     color: var(--sideBGColor);
     transition: 0.4s;
 }
+
+
+@media screen and (max-width: 900px){
+    #project{
+        padding: 50px 10px;
+    }
+
+    #project .pro-row {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 650px){
+    #project{
+        padding: 50px 10px;
+    }
+
+    #project .pro-row {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+    }
+    
+}
+
